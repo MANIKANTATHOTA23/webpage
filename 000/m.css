@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    background-color: turquoise;
+}
+.sidenav{
+width: 250px;
+height: 100%;
+background-color: lightslategray;
+position: absolute;
+margin: 0%;
+}
+.sidenav a{
+display: block;
+  overflow-x: hidden;
+  text-align: center;
+  padding: 6px;
+  height: 35px;
+  text-decoration: none;
+  color: aqua;
+  background-color: slategray;
+}
+
+
+.topnav{
+background-color: lightslategray;
+  overflow: auto;
+}
+.topnav a{
+  display: inline-block;
+position: relative;
+  float: left;
+  width: auto;
+  height: 30px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: aqua;
+  background-color: slategray;
+}
+a:hover{
+  box-shadow: 5px 5px 5px black;
+  color: rgb(5, 255, 84);
+  background-color: floralwhite}
+.container{
+margin-left: 300px;
+}
+.me{
+font-family: cursive;
+font-size: 40px;
+}
+img{
+  border-radius: 5cm;
+}
+#ico{
+  border-radius: 1cm;
+
+  width: 30px;
+  height: 30px;
+ 
+}
+.db{
+  position: absolute;
+  top: 16px;
+  right: 40px;
+  display: inline-block;
+}
+
+.chk{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  display: inline-block;
+}
+.dp a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+.dp{
+  display: none;
+  position: fixed;
+  background-color: lightblue;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.db:hover .chk {
+    background-color: #3e8e41;
+  }
+  .dp a:hover {background-color: #09d5a5}
+.db:hover .dp {
+    display: block;
+  }
+  #notify{
+    margin:  20% 0;
+    display: inline;
+  }
+  
+  #txt{
+    background-color: rgb(250, 71, 0);
+    top: 0;
+    border: 2px groove violet;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  #close{
+    color: tomato;
+    border-radius: 5cm;
+  }
+  #close:hover {
+    box-shadow: 5px 5px 5px black;
+  }
