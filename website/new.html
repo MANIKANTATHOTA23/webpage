@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> SIGN UP </title>
+	</head>
+	<center>
+	<style>
+input[type=text], select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 75%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+	align:center;
+  border-radius: 5px;
+  background-color: skyblue;
+  padding: 20px;
+  width:75%;
+}
+</style>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<form>
+		
+			<div>
+			 <label for="fname">First Name</label>
+			 <br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+<br>
+    <label for="lname">Last Name</label>
+    <br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." >
+    <br>
+    <label for="lname">EMAIL</label>
+    <br>
+    <input type="email" id="lname" name="lastname" placeholder="Your email" required>
+    <br>
+    <label for="country">Country</label>
+    <br>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">India</option>
+      <option value="usa">Russia</option>
+    </select>
+    <br>
+    <label for="fname">USERID</label>
+    <br>
+    <input type="text" id="fname" name="firstname" placeholder="You can also use special characters" required>
+    <br>
+    <label for="fname">PASSWORD</label>
+    <br>
+    <input type="password" id="fname" name="firstname" placeholder="Use 8 letters password" minlength="8" required>
+    </div>
+    <input type="submit" value="Submit">
+		
+	</form>
+	</center>
+</body>
+</html>
